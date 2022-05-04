@@ -2,14 +2,12 @@ console.log("in greet.js")
 
 
     function greet(name){
-        if(name = name);{
+        if(typeof(name) === "string" && name !==""){
       return "Hello, " + name ;
-    
-     
-        } ifelse (name = " " || name.length()<=0)
-
-      return "error";
-              }
+    }else {
+      return "enter valid name please";
+      }
+    }
       
       
       var message = greet("bob");
